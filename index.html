@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <form class="calc">
+      <input type="text" id="text1" value="numberA" /><br />
+      <input type="text" id="text2" value="numberB" /><br />
+      <input type="text" id="text3" value="Result"  />
+      <div class="button">
+        <button onclick="calculate('+',text3)">+</button>
+       <button onclick="calculate('-',text3)">-</button><br /><button onclick="calculate('/',text3)">/</button>
+<button onclick="calculate('*',text3)">X</button>
+      </div>  
+      <input type="reset" value="Reset" onclick="clear()"/>
+    </form>  
+  </body>
+</html>
